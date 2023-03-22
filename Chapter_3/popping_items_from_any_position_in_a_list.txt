@@ -1,0 +1,1 @@
+You can use pop() to remove an item from any position in a list by including the index of the item you want to remove in parentheses.

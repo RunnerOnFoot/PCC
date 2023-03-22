@@ -1,0 +1,4 @@
+Often, you’ll want to remove an item or a set of items from a list.
+For example, when a player shoots down an alien from the sky, you’ll most likely want to remove it from the list of active aliens.
+Or when a user decides to cancel their account on a web application you created, you’ll want to remove that user from the list of active users.
+You can remove an item according to its position in the list or according to its value.
