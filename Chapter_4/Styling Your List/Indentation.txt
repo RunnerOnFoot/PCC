@@ -1,0 +1,10 @@
+PEP 8 recommends that you use four spaces per indentation level. 
+Using four spaces improves readability while leaving room for multiple levels of indentation on each line.
+
+In a word processing document, people often use tabs rather than spaces to indent. 
+This works well for word processing documents, but the Python interpreter gets confused when tabs are mixed with spaces. 
+Every text editor provides a setting that lets you use the TAB key but then converts each tab to a set number of spaces. 
+You should definitely use your TAB key, but also make sure your editor is set to insert spaces rather than tabs into your document.
+
+Mixing tabs and spaces in your file can cause problems that are very difficult to diagnose. 
+If you think you have a mix of tabs and spaces, you can convert all tabs in a file to spaces in most editors.
