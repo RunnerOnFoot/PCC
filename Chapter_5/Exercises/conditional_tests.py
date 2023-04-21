@@ -30,3 +30,25 @@ print(sport == "climbing")
 
 print("\nIs sport == 'running'? I predict True.")
 print(sport == "running")
+
+# exp.4
+color = "blue"
+print("\nIs color == 'red'? I predict False.")
+print(color == "red")
+
+print("\nIs color == 'black'? I predict False.")
+print(color == "black")
+
+print("\nIs color == 'blue'? I predict True.")
+print(color == "blue")
+
+# exp.5
+music = "classic"
+print("\nIs music == 'classic'? I predict True.")
+print(music == "classic")
+
+print("\nIs music == 'jazz'? I predict False.")
+print(music == "jazz")
+
+print("\nIs music == 'rap'? I predict False.")
+print(music == "rap")
