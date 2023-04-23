@@ -52,3 +52,11 @@ print(music == "jazz")
 
 print("\nIs music == 'rap'? I predict False.")
 print(music == "rap")
+
+# exp.6
+laptop = "lenovo"
+print("\nIs laptop == 'asus'? I predict False.")
+print(laptop == "asus")
+
+print("\nIs laptop == 'lenovo'? I predict True.")
+print(laptop == "lenovo")
