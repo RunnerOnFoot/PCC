@@ -3,7 +3,7 @@
 # and then use it to determine how far to the right the alien should move:
 
 alien_0 = {"x_position": 0, "y_position": 25, "speed": "medium"}
-print(f"Original position: {alien_0['x_position']}")
+print(f"Original x-position: {alien_0['x_position']}")
 
 # Move the alien to the right.
 # Determine how far to move the alien based on its current speed.
@@ -18,4 +18,4 @@ else:
 # The new position is the old position plus the increment.
 alien_0["x_position"] = alien_0["x_position"] + x_increment
 
-print(f"New position: {alien_0['x_position']}")
+print(f"New x-position: {alien_0['x_position']}")
