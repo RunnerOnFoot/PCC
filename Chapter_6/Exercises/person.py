@@ -4,7 +4,7 @@ my_friend = {
     "first_name": "masy",
     "last_name": "naji",
     "age": 24,
-    "city": "rasht",
+    "city": "dehli",
 }
 
 for k, v in my_friend.items():

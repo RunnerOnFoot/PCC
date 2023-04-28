@@ -1,11 +1,9 @@
-# 6-2
-
 favorite_numbers = {
-    "amin": 5,
-    "ali": 7,
-    "pantea": 10,
-    "bardia": 50,
-    "parnian": 18,
+    "maryam": 17,
+    "ali": 23,
+    "hossein": 34,
+    "homayoun": 22,
+    "parsa": 21,
 }
 
 for k, v in favorite_numbers.items():
