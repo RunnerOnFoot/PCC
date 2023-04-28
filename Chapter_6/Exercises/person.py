@@ -15,3 +15,10 @@ print("\n")
 # another way:
 for v in my_friend.values():
     print(v)
+
+# another another way :D
+
+print(my_friend["first_name"])
+print(my_friend["last_name"])
+print(my_friend["age"])
+print(my_friend["city"])
