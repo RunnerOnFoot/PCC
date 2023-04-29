@@ -16,5 +16,4 @@ for name in favorite_languages.keys():
         language = favorite_languages[name].title()
         print(f"\t{name.title()}, I see you love {language}!")
 
-
 # "\t" is a tab!
