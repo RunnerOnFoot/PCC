@@ -7,6 +7,9 @@
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
+    "editor.fontSize": 15,
     "editor.formatOnSave": true,
-    "editor.fontSize": 15
+    "editor.defaultFormatter": "ms-python.autopep8",
+    "editor.formatOnSaveMode": "file",
+    "notebook.formatOnSave.enabled": false
 }
