@@ -2,7 +2,8 @@
     "python.analysis.typeCheckingMode": "off",
     "[python]": {
         "editor.formatOnSave": true,
-        "editor.defaultFormatter": "ms-python.autopep8"
+        "editor.defaultFormatter": "ms-python.autopep8",
+        "editor.formatOnType": true
     },
     "python.formatting.provider": "autopep8",
     "[jsonc]": {
