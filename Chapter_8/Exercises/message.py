@@ -2,7 +2,7 @@
 
 
 def display_message():
-    """Display a sentence about this chapter"""
+    """Display a sentence about chapter 8."""
     print("We learned a little about defining functions.")
 
 
