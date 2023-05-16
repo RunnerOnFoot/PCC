@@ -2,8 +2,9 @@
 
 
 def describe_city(city_name, country='england'):
-    """Display information about city."""
-    print(f"\n{city_name.title()} is in {country.title()}.")
+    """Describe a city."""
+    msg = f"\n{city_name.title()} is in {country.title()}."
+    print(msg)
 
 
 describe_city('london')
