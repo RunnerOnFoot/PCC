@@ -23,5 +23,18 @@ def show_completed_models(completed_models):
 designs = ['phone case', 'robot pendant', 'dodecahedron']
 all_models = []
 
-print_models(designs, all_models)
+print_models(designs[:], all_models)
 show_completed_models(all_models)
+print(designs)
+
+# In this case, your designs list will be empty:
+# print_models(designs, all_models)
+# show_completed_models(all_models)
+# print(designs)
+
+# BUT In this case, if you give a copy of your list to the function;
+# You'll be able to use the original list again!
+# and also the function working with a copy of the original list :D
+# print_models(designs[:], all_models)
+# show_completed_models(all_models)
+# print(designs)
