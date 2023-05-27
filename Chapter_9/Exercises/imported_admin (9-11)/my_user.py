@@ -1,7 +1,7 @@
 """Exercise 9-11"""
 
 
-from user import User, Admin, Privileges
+from user import Admin
 
 alex = Admin('alex', 'armstrong', 18, 'manager', 'white', 'turkey, istanbul')
 alex.describe_user()
