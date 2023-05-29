@@ -1,4 +1,4 @@
-"""Reading the Contents of a File"""
+"""Reading the Contents of a File (chained methods)"""
 
 
 from pathlib import Path
