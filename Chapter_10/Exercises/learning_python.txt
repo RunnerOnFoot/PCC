@@ -1,0 +1,4 @@
+In Python you can named any string.
+In Python you can work with for loop & while loop.
+In Python you can work with numerical numbers.
+In Python you can make a class and call it!
