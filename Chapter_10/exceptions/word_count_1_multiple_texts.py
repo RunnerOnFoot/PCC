@@ -15,8 +15,8 @@ def count_words(path):
         print(f"Your file {path} has about {num_words} words.")
 
 
-filenames = [r'Chapter_10\exceptions\alice.txt', r'siddhartha.txt',
-             r'moby_dick.txt', r'little_women.txt']
+filenames = [r'Chapter_10\exceptions\alice.txt', r'Chapter_10\exceptions\moby_dick.txt',
+             r'little_women.txt', r'Chapter_10\exceptions\siddhartha.txt']
 for filename in filenames:
     path = Path(filename)
     count_words(path)
