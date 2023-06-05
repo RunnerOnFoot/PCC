@@ -5,7 +5,7 @@ format the entered names into a neatly formatted full name.
 The user can enter 'q' at any time to quit the program.
 """
 
-from name_function import get_formatted_name
+from name_function_0 import get_formatted_name
 
 print("Enter 'q' at any time to quit.")
 while True:
