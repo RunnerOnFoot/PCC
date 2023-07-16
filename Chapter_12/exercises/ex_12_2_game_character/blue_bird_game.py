@@ -4,6 +4,7 @@ import sys
 import pygame
 
 from settings import Settings
+from bird import Bird
 
 
 class BlueBirdGame:
@@ -19,6 +20,8 @@ class BlueBirdGame:
             (self.settings.screen_width, self.settings.screen_height))
         pygame.display.set_caption("Blue Bird Game")
 
+        self.bird = Bird(self)
+
     def run_game(self):
         """Start the main loop for the game."""
         while True:
@@ -27,6 +30,7 @@ class BlueBirdGame:
                     sys.exit()
 
             self.screen.fill(self.settings.bg_color)
+            self.bird.blitme()
 
             pygame.display.flip()
 
