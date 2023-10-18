@@ -14,7 +14,7 @@ class Ship:
 
         # Load the ship image and get it's rect.
         self.image = pygame.image.load(
-            'Chapter_12\exercises\ex_12_6_sideways_shooter\images\rocket_small.png')
+            r'Chapter_12\exercises\ex_12_6_sideways_shooter\images\rocket_small.png')
         self.rect = self.image.get_rect()
 
         # Start each new ship at the center of the left side of the screen.
