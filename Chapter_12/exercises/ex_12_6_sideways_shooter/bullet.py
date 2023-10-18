@@ -1,7 +1,7 @@
 """Creating a bullet class for sideways_shooter.py"""
 
 import pygame
-from pygame.sprite import _Group, Sprite
+from pygame.sprite import Sprite
 
 
 class Bullet(Sprite):
