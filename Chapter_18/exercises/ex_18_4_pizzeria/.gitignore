@@ -5,6 +5,7 @@ __pycache__/
 
 # Ignore the virtual environment
 venv/
+pp_env/
 
 # Ignore logs and databases
 *.log
