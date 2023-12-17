@@ -28,3 +28,51 @@ __MACOSX/
 # Ignore dependencies
 /node_modules/
 /yarn-error.log
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+dist/
+eggs/
+*.egg-info/
+*.egg
+
+# Visual Studio Code directory
+.vscode/
+
+# PyCharm directory
+.idea/
+
+# macOS directory attributes
+.DS_Store
+
+# SQLite database file
+db.sqlite3
+
+# Log files
+*.log
+
+# Ignore virtual environment
+venv/
+
+# Ignore local settings
+local_settings.py
+
+# Ignore generated static files
+staticfiles/
+
+# Ignore media files
+media/
+
+# Ignore environment variables file
+.env
