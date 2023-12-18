@@ -11,3 +11,19 @@ class Pizza(models.Model):
     def __str__(self):
         """Return the name of the pizza."""
         return self.name
+
+
+class Topping(models.Model):
+    """Represent a topping that can be added to a pizza."""
+    pizza = models.ForeignKey(Pizza, on_delete=models.CASCADE)
+    name = models.CharField(max_length=255)
+
+    class Meta:
+        verbose_name_plural = "Toppings"
+
+    def __str__(self):
+        """Return the name of the topping."""
+        if len(self.name) > 25:
+            return f"{self.name[:25]}..."
+        else:
+            return self.name
